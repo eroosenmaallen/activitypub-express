@@ -4,8 +4,8 @@
   "description": "Modular ActivityPub implementation as Express middleware to easily add decentralization and federation to Node apps",
   "main": "index.js",
   "engines": {
-    "node": ">=16",
-    "npm": ">=7"
+    "node": ">=14",
+    "npm": ">=6"
   },
   "scripts": {
     "test": "jasmine",
