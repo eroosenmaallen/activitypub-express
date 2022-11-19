@@ -246,7 +246,7 @@ function isString (obj) {
  * federation with additional regex or url parsing
  */
 const localhosts = [
-  'https://localhost',
+  'http://localhost',
   'https://localhost',
   'http://127.0.0.1',
   'https://127.0.0.1'
