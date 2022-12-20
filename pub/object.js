@@ -15,7 +15,7 @@ async function resolveObject (id, includeMeta, refresh) {
     // already an object
     object = id
   } else {
-    cached = await this.store.getObject(id, true)
+    cached = await this.store.getObject(id, includeMeta);
     if (cached && !refresh) {
       return cached
     }
